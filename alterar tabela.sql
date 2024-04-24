@@ -1,0 +1,4 @@
+USE Loja;
+
+ALTER TABLE cliente
+ADD RG VARCHAR(10)

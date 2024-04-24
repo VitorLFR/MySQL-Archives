@@ -1,0 +1,9 @@
+USE Loja;
+
+CREATE TABLE Cliente (
+	Id INT PRIMARY KEY NOT NULL AUTO_INCREMENT,
+    Nome VARCHAR(100) NOT NULL,
+    CPF VARCHAR(9),
+    Email VARCHAR(40) NOT NULL,
+    Telefone VARCHAR(20)
+    );
